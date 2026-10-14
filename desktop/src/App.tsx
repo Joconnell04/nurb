@@ -1300,7 +1300,7 @@ function App() {
       )}
       {showSettings && (
         <Settings
-          folder={projectsFolder ?? defaultProjectsFolder ?? "~/Documents/nurb"}
+          folder={projectsFolder ?? defaultProjectsFolder ?? "~/Downloads/Claude/personal/nurb-projects"}
           customized={projectsFolder !== null}
           onChange={changeProjectsFolder}
           onReset={() => changeProjectsFolder(null)}
